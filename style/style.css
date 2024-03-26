@@ -27,14 +27,17 @@ body{
     cursor: pointer;
 }
 .col button{
+    outline: none;
     border: none;
     background: transparent;
     font-size: 1.5rem;
     border-radius: 10px;
     color: #fff;
     padding: 10px;
+    transition: 0.5s;
 }
 .col button:hover{
     background-color: rgba(0,0,0,0.1);
     cursor: pointer;
+    
 }
